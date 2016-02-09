@@ -1,0 +1,122 @@
+/*
+FONTS
+*/
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/montserrat-bold-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/montserrat-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-bold-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/montserrat-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/montserrat-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/montserrat-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/montserrat-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AntennaCond-Bold';
+  src: url('../fonts/AntennaCond-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AntennaCond-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AntennaCond-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AntennaCond-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AntennaCond-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AntennaCond-Regular';
+  src: url('../fonts/AntennaCond-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AntennaCond-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AntennaCond-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AntennaCond-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AntennaCond-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'AntennaCond-Regular';
+  src: url('../fonts/AntennaCond-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AntennaCond-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AntennaCond-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/AntennaCond-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AntennaCond-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+body {
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+/*
+OVERIDES
+*/
+
+/* Navigation */
+.navbar {
+    background-color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+    color: #1b7cff;
+    border-radius: 0;
+}
+
+.navbar .fa {
+    color: #000;
+}
+
+.navbar-absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 120px;
+}
+
+.navbar-brand {
+    font-family: 'AntennaCond-Bold', sans-serif;
+}
+
+.icon-bar {
+    background-color: #1b7cff;
+}
+
+/* Navigation */
+
+/* Jumbotron */
+
+.jumbotron {
+    padding-top: 200px;
+    height: 947px;
+}
+
+.jumbotron .lead {
+    color: #fff;   
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 38px;
+    color: #1b7cff;
+    font-family: 'AntennaCond-Bold', sans-serif;
+}
+
+.awesome-image {
+    background: url('../images/awsome_image.jpg') no-repeat;
+}
+
+/* Jumbotron */
+
+/* Buttons */
+.btn {
+    border-radius: 0px;   
+}
+
+.btn-info {
+    background: transparent;
+    border: 2px solid #1b7cff;
+    color: #1b7cff;
+}
+/* Buttons */
