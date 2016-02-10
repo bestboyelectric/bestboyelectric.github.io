@@ -83,7 +83,7 @@ OVERIDES
 
 .jumbotron {
     padding-top: 100px;
-    height: 947px;
+    height: 500px;
 }
 
 .jumbotron .lead {
@@ -98,6 +98,7 @@ OVERIDES
 
 .awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
+    background-size: 100% 130%;
 }
 
 /* Jumbotron */
