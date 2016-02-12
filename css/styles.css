@@ -73,6 +73,7 @@ body {
     border: 2px solid #1b7cff;
     color: #1b7cff;
     margin-top: 40px;
+    margin-bottom: 40px;   
 }
 
 .btn-success {
@@ -83,6 +84,17 @@ body {
 /* Typography */
 h1 {
     margin-top: 80px;
+    font-family: 'AntennaCond-Bold', sans-serif;
+    color: #1b7cff;
+}
+
+h2 {
+    font-family: 'AntennaCond-Bold', sans-serif;
+    color: #1b7cff;
+}
+
+h3 {
+    font-size: 28px;
     font-family: 'AntennaCond-Bold', sans-serif;
     color: #1b7cff;
 }
@@ -191,3 +203,27 @@ h1 {
 }
 /* CTA Build more awesome */
 
+/* High velocity */
+
+.bbe-thumbnail {
+        height: 180px;
+        width: 180px;  
+}
+
+.img-technology {
+    background: url('../images/mantras.jpg') no-repeat -40px 0px;
+}
+
+.img-methodology {
+    background: url('../images/mantras.jpg') no-repeat -313px 0px;
+}
+
+.img-infrastructure {
+    background: url('../images/mantras.jpg') no-repeat -584px 0px;
+}
+
+.img-culture {
+    background: url('../images/mantras.jpg') no-repeat -854px 0px;
+}
+
+/* High velocity */
