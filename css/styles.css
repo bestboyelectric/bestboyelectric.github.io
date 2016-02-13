@@ -331,6 +331,10 @@ h3 {
 
 /* Latest news */
 
+.bbe-latest-news {
+    margin-bottom: 40px;
+}
+
 .bbe-latest-news .bbe-news {
     background-color: #efefef; 
 }
@@ -360,3 +364,19 @@ h3 {
 }
 
 /* Latest news */
+
+.bbe-footer {
+    background-color: #090a0a;
+    padding: 40px 0px;
+}
+
+.bbe-footer .text-muted {
+    font-size: 14px;
+}
+
+.bbe-footer-base {
+    min-height: 40px;
+    background-color: #333;
+    color: #fff;
+    padding-top: 10px;
+}

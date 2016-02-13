@@ -43,7 +43,6 @@
                     <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#whatwedo">what we do</a></li>
-                        <li><a href="#team">team</a></li>
                         <li><a href="#clients">clients</a></li>
                         <li><a href="#work">work</a></li>
                         <li><a href="#awesome">awesome</a></li>
@@ -122,13 +121,13 @@
         <section class="container-fluid jumbotron bbe-earth-image">
             <div class="row">
                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h1>our passion is helping organisations becomeawesome at technology, fast!</h1>
+                    <h1>our passion is helping organisations become awesome at technology, fast!</h1>
                 </div>
             </div>
         </section>
         <!-- /Quote -->
                 
-        <!-- Our Team Elon Musk, not actually a team member-->
+        <!-- Our Team Elon Musk, not actually a team member
         <section class="container bbe-team">
             <div class="row text-center">
                 <h1>our team</h1>
@@ -156,11 +155,12 @@
                 <div class="col-sm-2 bbe-team-cta">
                     <button class="btn btn-lg btn-primary">join our team</button>
                 </div>
-            </div>
-        </section>
+            </div>-->
+        </section> 
         <!-- /Our Team -->
         
         <!-- Client logo's' -->
+        <a name="clients"></a>
         <section class="container bbe-client-logo">
             <div class="row bbe-client-row">
                 <div class="col-sm-4 text-center bbe-client-title">
@@ -177,6 +177,7 @@
         <!-- /Client logos -->
         
         <!-- Our Work -->
+        <a name="work"></a>
         <section class="container text-center">
             <div class="row">
                 <h1>our work</h1>
@@ -194,10 +195,10 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-sm-2 col-sm-offset-4">
+                <!--<div class="col-sm-2 col-sm-offset-4">
                     <button class="btn btn-info text-uppercase">case study</button>
-                </div>
-                <div class="col-sm-2">
+                </div>-->
+                <div class="col-sm-2 col-sm-offset-5">
                     <button class="btn btn-info text-uppercase">meet us</button>                    
                 </div>
             </div>
@@ -205,6 +206,7 @@
         <!-- /Our work -->
         
         <!-- Awesome at technology -->
+        <a name="awesome"></a>
         <section class="container bbe-awesome-technology">
             <div class="row bbe-awesome-technology-banner text-center">
                 <div class="col-sm-6 col-sm-offset-3">
@@ -246,88 +248,102 @@
                 <div class="bbe-news">
                     <div class="bbe-news-image-1"></div>
                     <div class="bbe-news-content">
-                        <h4>News Article</h4>
+                        <h4>Blog Article</h4>
                         <p class="text-primary">
-                            Speed and Data: The Future of Software Engineering 
+                            Building trust through the Retrospective Prime Directive
                         </p>
                         <p class="text-info">
-                            An evaluation of recent industrial and societal trends revealed three key factors driving software engineering's future...
+                            Agile retrospectives are an opportunity to make sure we're benefitting from continual improvement. In order for these to work...
                         </p>
                    </div>
                    <span class="text-muted pull-left text-center bbe-news-date">5th Febuary 2016</span>
-                   <button class="btn btn-lg btn-primary text-uppercase pull-right ">Read more</button> 
+                   <button class="btn btn-lg btn-primary text-uppercase pull-right " onclick="window.open('https://medium.com/@PeetDenny/building-trust-through-the-retrospective-prime-directive-fa91b8b59e#.me9os03xi')">Read more</button>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="bbe-news">
                     <div class="bbe-news-image-2"></div>
                     <div class="bbe-news-content">
-                        <h4>Video Article</h4>
+                        <h4>How-to Article</h4>
                         <p class="text-primary">
-                            Speed and Data: The Future of Software Engineering 
+                                Automated Provisioning of Jenkins on Google Cloud
                         </p>
                         <p class="text-info">
-                            An evaluation of recent industrial and societal trends revealed three key factors driving software engineering's future...
+                            In this article, we cover how to provision an immutable instance of Jenkins which integrates with your company LDAP within 15 minutes...
                         </p>
                      </div>
                      <span class="text-muted pull-left text-center bbe-news-date">5th Febuary 2016</span>
-                     <button class="btn btn-lg btn-primary text-uppercase pull-right">Read more</button>
+                     <button class="btn btn-lg btn-primary text-uppercase pull-right" onclick="window.open('https://medium.com/@PeetDenny/automated-provisioning-of-jenkins-on-google-cloud-c297b2e0be2#.fhx9izqbw')">Read more</button>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="bbe-news">
                     <div class="bbe-news-image-3"></div>
                     <div class="bbe-news-content">
-                        <h4>Blog article</h4>
+                        <h4>How-to article</h4>
                         <p class="text-primary">
-                            Speed and Data: The Future of Software Engineering 
+                            Integrating a Nest IoT device with Slack
                         </p>
                         <p class="text-info">
-                            An evaluation of recent industrial and societal trends revealed three key factors driving software engineering's future...
+                                Using Slack slash commands, a Go microservice and Heroku to get basic chatops functionality with a Nest Smoke & CO sensor
                         </p>
                     </div>
                     <span class="text-muted pull-left text-center bbe-news-date">5th Febuary 2016</span>
-                    <button class="btn btn-lg btn-primary text-uppercase pull-right">Read more</button>
+                    <button class="btn btn-lg btn-primary text-uppercase pull-right" onclick="window.open('https://medium.com/@PeetDenny/querying-my-nest-smoke-alarm-with-slack-b1bd07ed7b87#.7mto5eujm')">Read more</button>
                 </div>
             </div>
         </section>
+ 
         <!-- /Latest news -->
         
         <footer class="container">
             <div class="row cta">
-                <div class="col-sm-8 col-sm-offset-2 text-center">
+                <div class="col-sm-8 col-sm-offset-1 text-center">
                     <span class="text-primary-reverse">To build more awesome in less time</span> <button class="btn btn-lg btn-success">CLICK HERE</button>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-2 col-sm-offset-2">
+            <div class="row bbe-footer">
+                <div class="col-sm-2 col-sm-offset-1">
                     <h5>Menu</h5>
-                    <ul>
-                        <li>work</li>
-                        <li>awesome</li>
-                        <li>news</li>
-                        <li>contact</li>
-                        <li>home</li>
-                        <li>what we do</li>
-                        <li>team</li>
-                        <li>clients</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#clients">clients</a></li>
+                                <li><a href="#work">work</a></li>
+                                <li><a href="#awesome">awesome</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#news">news</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h5>About</h5>
                     <p class="text-muted"><span>best boy electric</span> ensure you execute at a faster pace, and with less risk with modern technologies, methodologies and approaches.</p>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <h5>Awesome</h5>
                     <p class="text-muted">We don’t like to complicate things. Awesome is best appreciated when it is simple. We are the Kung Fu Panda of development.</p> 
                 </div>
                 <div class="col-sm-2">
                     <h5>Contact</h5>
-                    <p class="text-muted">best boy electric8th Floor, 22 Upper Ground Street,London SE1 9PD.
+                    <p class="text-muted">best boy electric, 8th Floor, 22 Upper Ground Street,London SE1 9PD.
                         <a href="mailto:team@bestboyelectric.io">mailto:team@bestboyelectric.io</a> 
                         <a href="phone:02038085308">02038 085 308</a>
                     </p>
                 </div>
+            </div>
+            <div class="row bbe-footer-base">
+                <div class="col-sm-4 col-sm-offset-1">
+                    © 2016 best boy electric. All rights reserved
+                </div>
+                <!--<div class="col-sm-4 col-sm-offset-3">
+                    Legal terms & conditions  Privacy Policy Cookies
+                </div>-->
             </div>
         </footer>
         
