@@ -68,6 +68,11 @@ body {
     font-size: 18.46px;
 }
 
+.btn-primary {
+    background-color: #1b7cff;
+    color: #fff;
+}
+
 .btn-info {
     background: transparent;
     border: 2px solid #1b7cff;
@@ -180,7 +185,7 @@ h3 {
     line-height: 40px;
 }
 
-.awesome-image {
+.bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
     background-size: 100% 130%;
 }
@@ -227,3 +232,56 @@ h3 {
 }
 
 /* High velocity */
+
+
+/* Earth Quote */
+
+.bbe-earth-image {
+    background: url('../images/earth_image.jpg') no-repeat;
+    background-size: 100% 130%;
+    min-height: 300px;
+}
+
+.bbe-earth-image h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+/* Earth Quote */
+
+/* Our Team */
+.bbe-team h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.bbe-team .bbe-team-cta {
+    background-color: #1b7cff;
+}
+
+.bbe-team .text-info {
+    margin-bottom: 35px;
+}
+
+.bbe-team .fa {
+    color: #090a0a;
+}
+
+.bbe-team .btn-lg {
+    line-height: 11.233333;
+}
+/* Our Team */
+
+/* Client logos */
+.bbe-client-logo .bbe-client-title {
+    background-color: #1b7cff;
+    min-height: 220px;  
+}
+
+.bbe-client-logo .bbe-client-title h3 {
+     font-size: 22px;
+     color: #fff;  
+     padding-top: 62px;
+}
+
+/* Client logos */
