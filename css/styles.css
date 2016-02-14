@@ -235,6 +235,19 @@ h3 {
     background: url('../images/mantras.jpg') no-repeat -854px 0px;
 }
 
+.bbe-high-velocity-content {
+    display: none;
+}
+
+.bbe-high-velocity .technology .bbe-high-velocity-technology,
+.bbe-high-velocity .methodology .bbe-high-velocity-methodology,
+.bbe-high-velocity .infrastructure .bbe-high-velocity-infrastructure,
+.bbe-high-velocity .culture .bbe-high-velocity-culture {
+    display: block;
+}
+
+.bbe-high-velocity.methodology .bbe-high-velocity-methodology
+
 /* High velocity */
 
 
