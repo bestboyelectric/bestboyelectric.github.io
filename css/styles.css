@@ -130,6 +130,17 @@ h3 {
 
 /* Typography */
 
+/* Modal Popup */
+	
+.modal {
+  top: 40px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+/* Modal Popup */
 
 /* Navigation */
 .navbar {
@@ -411,3 +422,47 @@ h3 {
     color: #fff;
     padding-top: 10px;
 }
+
+/* Modal Form */
+
+.bbe-form-popup .modal-content {
+    background-color: #1b7cff;
+}
+
+.bbe-form-popup h2,
+.bbe-form-popup p,
+.bbe-form-popup a,
+.bbe-form-popup span {
+    color: #fff;
+}
+
+.bbe-form-popup .form-group {
+    margin-top: 20px;
+}
+
+.bbe-form-popup .form-control {
+    border-radius: 0;   
+}
+
+.bbe-form-popup .input-lg {
+    height: 60px;
+    color: #1b7cff; 
+    font-weight: bold;
+    margin: 7px 0;
+}
+
+.bbe-form-popup span.text-primary {
+    color: #fff;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.bbe-form-popup .bbe-form-message {
+    padding-top: 20px;
+}
+
+.bbe-form-popup .form-control::-webkit-input-placeholder { color: #1b7cff; font-weight: bold; }
+.bbe-form-popup .form-control:-moz-placeholder { color: #1b7cff; font-weight: bold; }
+.bbe-form-popup .form-control::-moz-placeholder { color: #1b7cff; font-weight: bold;}
+.bbe-form-popup .form-control:-ms-input-placeholder { color: #1b7cff; font-weight: bold;}
+/* Modal Form */

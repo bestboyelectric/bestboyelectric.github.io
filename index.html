@@ -76,7 +76,7 @@
         <section class="container-fluid">
             <div class="row cta">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <span class="text-primary-reverse">To build more awesome in less time</span> <a href="mailto:team@bestboyelectric.io" class="btn btn-lg btn-success">CLICK HERE</a>
+                    <span class="text-primary-reverse">To build more awesome in less time</span> <a href="#FormPopup" data-toggle="modal" class="btn btn-lg btn-success">CLICK HERE</a>
                 </div>
             </div>
             <div class="row high-velocity">
@@ -88,7 +88,7 @@
                     <p class="text-info">
                         best boy electric ensure you execute at a faster pace, and with less risk with modern technologies, methodologies and approaches. Lean Startup, Agile, PaaS and DevOps help you bring the right product to your market in a shorter time with greatly reduced exposure to human error, defects and incidents.
                     </p>
-                    <a href="mailto:team@bestboyelectric.io" class="btn btn-lg btn-info text-uppercase">build more awesome</a>
+                    <a href="#FormPopup" data-toggle="modal" class="btn btn-lg btn-info text-uppercase">build more awesome</a>
                 </div>
             </div>
         </section>
@@ -220,7 +220,7 @@
                     <button class="btn btn-info text-uppercase">case study</button>
                 </div>-->
                 <div class="col-sm-2 col-sm-offset-5">
-                    <a href="mailto:team@bestboyelectric.io" class="btn btn-info text-uppercase">meet us</a>                    
+                    <a href="#FormPopup" data-toggle="modal" class="btn btn-info text-uppercase">meet us</a>                    
                 </div>
             </div>
         </section>
@@ -328,7 +328,7 @@
         <footer class="container-fluid">
             <div class="row cta">
                 <div class="col-sm-8 col-sm-offset-1 text-center">
-                    <span class="text-primary-reverse">To build more awesome in less time</span> <a href="mailto:team@bestboyelectric.io" class="btn btn-lg btn-success">CLICK HERE</a>
+                    <span class="text-primary-reverse">To build more awesome in less time</span> <a href="#FormPopup" data-toggle="modal" class="btn btn-lg btn-success">CLICK HERE</a>
                 </div>
             </div>
             <div class="row bbe-footer">
@@ -345,7 +345,7 @@
                         <div class="col-sm-6">
                             <ul class="list-unstyled">
                                 <li><a href="#news">news</a></li>
-                                <li><a href="mailto:team@bestboyelectric.io">contact</a></li>
+                                <li><a href="#FormPopup" data-toggle="modal">contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -376,10 +376,56 @@
             </div>
         </footer>
         
+        <div class="container modal fade bbe-form-popup" id="FormPopup" tabindex="-1">
+            <div class="modal-dialogue">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6 text-center">
+                                <h2>Need some awesome? Then get in touch.</h2>
+                                <p class="text-primary"><strong>best boy electric</strong></br>
+                                8th Floor,</br> 
+                                22 Upper Ground Street,</br>
+                                London SE1 9PD.</p>
+                                
+                                <p class="text-primary"><a href="mailto:team@bestboyelectric.io">team@bestboyelectric.io</a></br>
+                                    <a href="phone:0203 808 5308">0203 808 5308</a></p>
+                                     
+                                <p class="text-primary">We don’t like to complicate things. Awesome is best appreciated when it is simple. We are the Kung Fu Panda of development.</p> 
+                            </div>
+                            <div class="col-sm-5 col-sm-offset-1">
+                                <form action="" method="post" id="bbe-form">
+                                    <div class="form-group">
+                                        <input type="text" name="fullName" class="form-control input-lg required" placeholder="Full name*"/>
+                                        <span class="text-info hidden">please enter your full name</span>
+                                        <input type="email" name="email" class="form-control input-lg required" placeholder="Email*"/>
+                                        <span class="text-info hidden">please enter your email</span>
+                                        <input type="text" name="company" class="form-control input-lg" placeholder="Company"/>
+                                        <input type="text" name="subject" class="form-control input-lg required" placeholder="Subject*"/>
+                                        <span class="text-info hidden">please enter a subject</span>
+                                        <textarea class="form-control input-lg required" rows="5" placeholder="Message*"></textarea>
+                                        <span class="text-info hidden">please enter a message</span>
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <input type="Submit" value="SEND" class="btn btn-lg btn-success"/>
+                                            </div>
+                                            <div class="col-sm-6 col-sm-offset-2 bbe-form-message hidden">
+                                                <span class="text-primary">MESSAGE SENT</span>
+                                             </div>
+                                        </div>
+                                    </div>
+                                <form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Bootstrap core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
-        <script src="js/mantra.js"></script>
+        <script src="js/core.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
