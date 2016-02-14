@@ -292,6 +292,20 @@ h3 {
      padding-top: 62px;
 }
 
+.bbe-client-logo .bbe-logos {
+    overflow-x: auto;
+    padding-top: 62px;
+}
+
+.bbe-logos {
+    position: relative;
+    min-height: 200px;
+}
+
+.bbe-logos .item {
+    position: absolute;
+}
+
 /* Client logos */
 
 /* Awesome technology */
@@ -361,6 +375,10 @@ h3 {
 .bbe-news-date {
     line-height: 3.733333;
     padding-left: 20px;
+}
+
+.bbe-latest-news .text-muted {
+    font-size: 11px;
 }
 
 /* Latest news */

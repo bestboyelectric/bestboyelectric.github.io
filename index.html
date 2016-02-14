@@ -47,10 +47,10 @@
                         <li><a href="#work">work</a></li>
                         <li><a href="#awesome">awesome</a></li>
                         <li><a href="#news">news</a></li>
-                        <li><a href="#contact">contact</a></li>
-                        <li><a class="fa fa-fw fa-facebook" href="http://www.facebook.com"></a></li>
-                        <li><a class="fa fa-fw fa-twitter" href="http://www.twitter.com"></a></li>
-                        <li><a class="fa fa-fw fa-linkedin" href="http://www.linkedin.com"></a></li>
+                        <li><a href="mailto:team@bestboyelectric.io">contact</a></li>
+                        <li><a class="fa fa-fw fa-facebook" target="blank" href="http://www.facebook.com/Best-Boy-Electric-133213680382017/"></a></li>
+                        <li><a class="fa fa-fw fa-twitter" target="blank" href="http://www.twitter.com/@peetdenny"></a></li>
+                        <li><a class="fa fa-fw fa-linkedin" target="blank" href="http://www.linkedin.com/m/company/10269877/"></a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -76,7 +76,7 @@
         <section class="container-fluid">
             <div class="row cta">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
-                    <span class="text-primary-reverse">To build more awesome in less time</span> <button class="btn btn-lg btn-success">CLICK HERE</button>
+                    <span class="text-primary-reverse">To build more awesome in less time</span> <a href="mailto:team@bestboyelectric.io" class="btn btn-lg btn-success">CLICK HERE</a>
                 </div>
             </div>
             <div class="row high-velocity">
@@ -88,7 +88,7 @@
                     <p class="text-info">
                         best boy electric ensure you execute at a faster pace, and with less risk with modern technologies, methodologies and approaches. Lean Startup, Agile, PaaS and DevOps help you bring the right product to your market in a shorter time with greatly reduced exposure to human error, defects and incidents.
                     </p>
-                    <button class="btn btn-lg btn-info text-uppercase">build more awesome</button>
+                    <a href="mailto:team@bestboyelectric.io" class="btn btn-lg btn-info text-uppercase">build more awesome</a>
                 </div>
             </div>
         </section>
@@ -112,6 +112,26 @@
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <h3>technology</h3>
                     <p>Our engineering focus encourages searching for the simplest possible solution to a problem, using the right tool for the job, and the application of computer science. The right use of modern technologies results in a solution that is robust, simple and easy to maintain.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <h3>methodology</h3>
+                    <p>We’re keen students of any practice or method that will help us deliver value more quickly, encourage collaboration or help to build more robust systems.
+Methodologies like Agile, Continuous Delivery, DevOps and Lean allow enterprises to drastically improve delivery velocity, system resiliency and customer satisfaction.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <h3>infrastructure</h3>
+                    <p>Cloud, virtualisation and containerisation allow us to build elastic systems which grow and shrink depending on your needs. This is not only a great way to control costs, but also makes capacity planning much easier. We’re big fans of infrastructure automation too, which allows us to recreate an entire execution stack at the push of a button. These practices ensure that quality and resiliency are not compromised when delivering systems at high speed.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <h3>culture</h3>
+                    <p>Some of the best improvements in team performance come from improving collaboration with those involved in the inputs and outputs. In software, this means bringing the business closer together to the development team, the development teams closer to the operations teams, and the business closer to its customers and users. The methodologies we use greatly enhance collaboration between all of these teams.
+                    </p>
                 </div>
             </div>
         </section>
@@ -161,15 +181,14 @@
         
         <!-- Client logo's' -->
         <a name="clients"></a>
-        <section class="container bbe-client-logo">
+        <section class="container-fluid bbe-client-logo">
             <div class="row bbe-client-row">
                 <div class="col-sm-4 text-center bbe-client-title">
                     <h3>working withbest boy electricis a rewarding experience</h3>
                 </div>
-                <div class="col-sm-8">
-                    <div class="bbe-logos">
-                        
-                        
+                <div class="col-sm-8 bbe-container">
+                    <div id="slider" class="bbe-logos">
+                        <img src="images/logos.jpg" alt="clients" />
                     </div>
                 </div>
             </div>
@@ -199,7 +218,7 @@
                     <button class="btn btn-info text-uppercase">case study</button>
                 </div>-->
                 <div class="col-sm-2 col-sm-offset-5">
-                    <button class="btn btn-info text-uppercase">meet us</button>                    
+                    <a href="mailto:team@bestboyelectric.io" class="btn btn-info text-uppercase">meet us</a>                    
                 </div>
             </div>
         </section>
@@ -207,7 +226,7 @@
         
         <!-- Awesome at technology -->
         <a name="awesome"></a>
-        <section class="container bbe-awesome-technology">
+        <section class="container-fluid bbe-awesome-technology">
             <div class="row bbe-awesome-technology-banner text-center">
                 <div class="col-sm-6 col-sm-offset-3">
                     <h1>Making customers awesome at technology</h1>
@@ -240,9 +259,12 @@
         <!-- /Awesome at technology -->
         
         <!-- Latest news -->
-        <section class="container bbe-latest-news">
+        <a name="news"></a>
+        <section class="container bbe-latest-news hidden-xs">
             <div class="row text-center">
-                <h1>latest news</h1>
+                <div class="col-sm-6 col-sm-offset-3">
+                    <h1>latest news</h1>
+                </div>
             </div>
             <div class="col-sm-4">
                 <div class="bbe-news">
@@ -292,14 +314,19 @@
                     <button class="btn btn-lg btn-primary text-uppercase pull-right" onclick="window.open('https://medium.com/@PeetDenny/querying-my-nest-smoke-alarm-with-slack-b1bd07ed7b87#.7mto5eujm')">Read more</button>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 text-center">
+                    <a href="https://medium.com/@PeetDenny/" class="btn btn-info text-uppercase">View all our posts</a>
+                </div>
+            </div>
         </section>
  
         <!-- /Latest news -->
         
-        <footer class="container">
+        <footer class="container-fluid">
             <div class="row cta">
                 <div class="col-sm-8 col-sm-offset-1 text-center">
-                    <span class="text-primary-reverse">To build more awesome in less time</span> <button class="btn btn-lg btn-success">CLICK HERE</button>
+                    <span class="text-primary-reverse">To build more awesome in less time</span> <a href="mailto:team@bestboyelectric.io" class="btn btn-lg btn-success">CLICK HERE</a>
                 </div>
             </div>
             <div class="row bbe-footer">
@@ -316,7 +343,7 @@
                         <div class="col-sm-6">
                             <ul class="list-unstyled">
                                 <li><a href="#news">news</a></li>
-                                <li><a href="#contact">contact</a></li>
+                                <li><a href="mailto:team@bestboyelectric.io">contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -349,7 +376,8 @@
         
         <!-- Bootstrap core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+        <script src="js/sliderjq.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     </body>
