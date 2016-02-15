@@ -200,7 +200,8 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-    background-size: 100% 130%;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 /* Jumbotron */
@@ -266,7 +267,8 @@ h3 {
 
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
-    background-size: 100% 130%;
+    background-position: 50% 50%;
+    background-size: cover;
     min-height: 500px;
 }
 
