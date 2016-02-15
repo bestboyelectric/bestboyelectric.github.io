@@ -157,10 +157,12 @@ h3 {
 
 .navbar-brand {
     font-family: 'AntennaCond-Bold', sans-serif;
+    color: #1b7bff;
 }
 
 .nav>li>a {
     padding: 15px 10px;
+    color: #1b7bff;
 }
 
 .icon-bar {
