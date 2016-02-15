@@ -257,8 +257,6 @@ h3 {
     display: block;
 }
 
-.bbe-high-velocity.methodology .bbe-high-velocity-methodology
-
 /* High velocity */
 
 
@@ -267,12 +265,13 @@ h3 {
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
     background-size: 100% 130%;
-    min-height: 300px;
+    min-height: 500px;
 }
 
 .bbe-earth-image h1 {
     color: #fff;
     font-size: 36px;
+    margin-top: 130px;
 }
 
 /* Earth Quote */
@@ -287,6 +286,9 @@ h3 {
     font-size: 20px;
 }
 
+.bbe-team .bbe-team-para2 {
+    margin-top: 60px;
+}
 .bbe-team .bbe-team-cta {
     background-color: #1b7cff;
 }
@@ -316,19 +318,28 @@ h3 {
      padding-top: 62px;
 }
 
-.bbe-client-logo .bbe-logos {
+/*.bbe-client-logo .bbe-logos {
     overflow-x: auto;
     padding-top: 62px;
-}
+}*/
 
 .bbe-logos {
     position: relative;
     min-height: 200px;
 }
 
-.bbe-logos .item {
-    position: absolute;
+
+#owl-demo .item{
+  margin: 3px;
 }
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/*.bbe-logos .item {
+    position: absolute;
+}*/
 
 /* Client logos */
 

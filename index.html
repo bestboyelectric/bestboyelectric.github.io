@@ -18,6 +18,10 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
         
+        <!-- Owl Carousel Assets -->
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        
         <!-- Custom styles for this template -->
         <link rel="stylesheet" href="css/styles.css">
 
@@ -149,11 +153,11 @@
         </section>
         <!-- /Quote -->
                 
-        <!-- Our Team Elon Musk, not actually a team member
+        <!-- Our Team Elon Musk, not actually a team member-->
         <section class="container bbe-team">
             <div class="row text-center">
-                <h1>our team</h1>
-                <p class="text-info">
+                <h1>Founder</h1>
+                <p class="text-info hidden">
                     Our collaborative minds will make your ideas possible.
                 </p>
             </div>
@@ -162,11 +166,17 @@
                 <div class="col-sm-3">
                     <img width="100%" src="images/peetdenny.jpg" alt="Peet Denny - Founder" />
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-3">
                         <h3>Peet Denny</h3>
                         <h4>founder, software consultant</h4>
                         <p class="text-info">
-                            Peet is an independent software consultant who is excited about helping businesses get to their goals through the use of technology. He's worked as a developer, designer, dev lead and principal architect, and has introduced Agile, TDD, CD and DevOps to a range of organisations. 
+                            Peet is an independent software consultant who is excited about helping businesses get to their goals through the use of technology. 
+                        </p>
+                        
+                </div>
+                <div class="col-sm-3 bbe-team-para2">
+                        <p class="text-info">
+                            He's worked as a developer, designer, dev lead and principal architect, and has introduced Agile, TDD, CD and DevOps to a range of organisations. 
                             </br>
                             <a class="fa fa-facebook" href="http://www.facebook.com"></a>
                             <a class="fa fa-twitter" href="http://www.twitter.com"></a>
@@ -175,9 +185,9 @@
                         
                 </div>
                 <div class="col-sm-2 bbe-team-cta">
-                    <button class="btn btn-lg btn-primary">join our team</button>
+                    <a href="#FormPopup" data-toggle="modal" class="btn btn-lg btn-primary">Meet the founder</a>
                 </div>
-            </div>-->
+            </div>
         </section> 
         <!-- /Our Team -->
         
@@ -189,8 +199,18 @@
                     <h3>working withbest boy electricis a rewarding experience</h3>
                 </div>
                 <div class="col-sm-8 bbe-container">
-                    <div id="slider" class="bbe-logos">
-                        <img src="images/logos.jpg" alt="clients" />
+                    <div id="owl-demo">
+                        <div class="item"><img src="images/bea_logo_200.png" alt="BEA"></div>
+                        <div class="item"><img src="images/bmw_logo_200.png" alt="BMW"></div>
+                        <div class="item"><img src="images/capgemini-logo._200.png" alt="capgemini"></div>
+                        <div class="item"><img src="images/lch_log_200.png" alt="LCH.CLEARNET"></div>
+                        <div class="item"><img src="images/man_logo_200.png" alt="Man Group plc"></div>
+                        <div class="item"><img src="images/monitise_200.jpg" alt="Monitise"></div>
+                        <div class="item"><img src="images/Oracle-Logo_200.png" alt="Oracle"></div>
+                        <div class="item"><img src="images/Programutvikling_200.png" alt="Program Utvikling"></div>
+                        <div class="item"><img src="images/steria_sopra_200.png" alt="Sopra Steria"></div>
+                        <div class="item"><img src="images/Sun-Microsystems_200.png" alt="Sun Microsystems"></div>
+                        <div class="item"><img src="images/Zurich-Insurance_200.png" alt="Zurich Insurance"></div>
                     </div>
                 </div>
             </div>
@@ -425,6 +445,9 @@
         <!-- Bootstrap core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!--<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>-->
+        
+        <script src="js/owl.carousel.min.js"></script>
+        
         <script src="js/core.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
