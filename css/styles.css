@@ -229,7 +229,7 @@ h3 {
 /* High velocity */
 
 .bbe-high-velocity {
-    margin-bottom: 30px;   
+    margin-bottom: 80px;   
 }
 
 .bbe-thumbnail {
@@ -286,7 +286,7 @@ h3 {
 
 /* Our Team */
 .bbe-team {
-    margin-bottom: 30px;    
+    margin-bottom: 80px;    
 }
 
 .bbe-team h3 {
@@ -351,6 +351,14 @@ h3 {
 
 /* Client logos */
 
+/* Our work */
+
+.bbe-our-work {
+    margin-bottom: 80px;
+}
+
+/* Our work */
+
 /* Awesome technology */
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
@@ -389,7 +397,7 @@ h3 {
 /* Latest news */
 
 .bbe-latest-news {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .bbe-latest-news .bbe-news {
