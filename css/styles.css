@@ -390,7 +390,9 @@ h3 {
     float: none;
     display: table-cell;
     vertical-align: top;
+    padding: 0 70px;
 }
+
 
 /* Awesome technology */
 
