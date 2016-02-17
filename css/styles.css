@@ -157,10 +157,12 @@ h3 {
 
 .navbar-brand {
     font-family: 'AntennaCond-Bold', sans-serif;
+    color: #1b7bff;
 }
 
 .nav>li>a {
     padding: 15px 10px;
+    color: #1b7bff;
 }
 
 .icon-bar {
@@ -198,7 +200,8 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-    background-size: 100% 130%;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 /* Jumbotron */
@@ -214,6 +217,10 @@ h3 {
     color: #fff;
 }
 
+.cta .bbe-cta-title {
+    margin-right: 12px;
+}
+
 .high-velocity .row:first {
     height: 100%;
 }
@@ -222,7 +229,7 @@ h3 {
 /* High velocity */
 
 .bbe-high-velocity {
-    margin-bottom: 30px;   
+    margin-bottom: 80px;   
 }
 
 .bbe-thumbnail {
@@ -264,7 +271,8 @@ h3 {
 
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
-    background-size: 100% 130%;
+    background-position: 50% 50%;
+    background-size: cover;
     min-height: 500px;
 }
 
@@ -278,7 +286,7 @@ h3 {
 
 /* Our Team */
 .bbe-team {
-    margin-bottom: 30px;    
+    margin-bottom: 80px;    
 }
 
 .bbe-team h3 {
@@ -334,7 +342,7 @@ h3 {
 }
 #owl-demo .item img{
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 /*.bbe-logos .item {
@@ -342,6 +350,14 @@ h3 {
 }*/
 
 /* Client logos */
+
+/* Our work */
+
+.bbe-our-work {
+    margin-bottom: 80px;
+}
+
+/* Our work */
 
 /* Awesome technology */
 .bbe-awesome-technology .bbe-awesome-technology-banner {
@@ -374,14 +390,16 @@ h3 {
     float: none;
     display: table-cell;
     vertical-align: top;
+    padding: 0 70px;
 }
+
 
 /* Awesome technology */
 
 /* Latest news */
 
 .bbe-latest-news {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .bbe-latest-news .bbe-news {
