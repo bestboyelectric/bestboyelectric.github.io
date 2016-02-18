@@ -407,6 +407,18 @@ h3 {
     background-color: #efefef; 
 }
 
+.bbe-news-content h4 {
+    font-size: 14px;
+}
+
+.bbe-news-content p.text-primary {
+    font-size: 18px;
+}
+
+.bbe-news-content p.text-info {
+    font-size: 14px;
+}
+
 .bbe-latest-news .bbe-news-image-1 {
     background: url('../images/newsimages.jpg') no-repeat -10px 0px;
     height: 243px;
