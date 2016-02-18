@@ -274,6 +274,7 @@ h3 {
     background-position: 50% 50%;
     background-size: cover;
     min-height: 500px;
+    background-attachment: fixed;
 }
 
 .bbe-earth-image h1 {
