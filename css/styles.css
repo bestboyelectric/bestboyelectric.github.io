@@ -303,7 +303,11 @@ h3 {
     margin-top: 60px;
 }
 .bbe-team .bbe-team-cta {
-    background-color: #1b7cff;
+    background-color: #00d8b2;
+}
+
+.bbe-team-cta .btn {
+    background-color: #00d8b2;
 }
 
 .bbe-team .text-info {
@@ -416,11 +420,11 @@ h3 {
 }
 
 .bbe-news-content p.text-primary {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .bbe-news-content p.text-info {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .bbe-latest-news .bbe-news-image-1 {
