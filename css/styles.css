@@ -48,12 +48,17 @@ Colours
     #1b7cff - blue
     #00d8b2 - green
     #efefef - grey (background)
+	#484e5d - silver
     #090a0a - black (text)
     #ddd    - light grey (text muted)
 */
 
 body {
   font-family: 'Montserrat-Regular', sans-serif;
+}
+
+a:hover {
+    color: #484e5d;
 }
 
 /* Buttons */
@@ -71,6 +76,10 @@ body {
 .btn-primary {
     background-color: #1b7cff;
     color: #fff;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
 .btn-info {
@@ -78,11 +87,19 @@ body {
     border: 2px solid #1b7cff;
     color: #1b7cff;
     margin-top: 40px;
-    margin-bottom: 40px;   
+    margin-bottom: 40px; 
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;  
 }
 
 .btn-success {
     background-color: #00d8b2;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 } 
 /* Buttons */
 
