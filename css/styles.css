@@ -311,7 +311,7 @@ h3 {
 }
 
 .bbe-team .fa {
-    color: #090a0a;
+    color: #1b7cff;
 }
 
 .bbe-team .btn-lg {
@@ -512,3 +512,16 @@ h3 {
 .bbe-form-popup .form-control::-moz-placeholder { color: #1b7cff; font-weight: bold;}
 .bbe-form-popup .form-control:-ms-input-placeholder { color: #1b7cff; font-weight: bold;}
 /* Modal Form */
+
+
+@media (max-width: 768px){
+	
+/* Make Awesome Boxes Mobile Friendly */
+
+.bbe-awesome-technology [class*="col-"] {
+    float: none;
+    display: inherit;
+    vertical-align: top;
+    padding: 0 70px;
+}
+}
