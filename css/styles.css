@@ -140,6 +140,10 @@ h3 {
     border-radius: 0;
 }
 
+.modal-header {
+    border-bottom: 0px;
+}
+
 /* Modal Popup */
 
 /* Navigation */
