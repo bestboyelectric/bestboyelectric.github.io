@@ -140,6 +140,10 @@ h3 {
     border-radius: 0;
 }
 
+.modal-header {
+    border-bottom: 0px;
+}
+
 /* Modal Popup */
 
 /* Navigation */
@@ -299,7 +303,11 @@ h3 {
     margin-top: 60px;
 }
 .bbe-team .bbe-team-cta {
-    background-color: #1b7cff;
+    background-color: #00d8b2;
+}
+
+.bbe-team-cta .btn {
+    background-color: #00d8b2;
 }
 
 .bbe-team .text-info {
@@ -307,7 +315,7 @@ h3 {
 }
 
 .bbe-team .fa {
-    color: #090a0a;
+    color: #1b7cff;
 }
 
 .bbe-team .btn-lg {
@@ -412,11 +420,11 @@ h3 {
 }
 
 .bbe-news-content p.text-primary {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .bbe-news-content p.text-info {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .bbe-latest-news .bbe-news-image-1 {
@@ -508,3 +516,16 @@ h3 {
 .bbe-form-popup .form-control::-moz-placeholder { color: #1b7cff; font-weight: bold;}
 .bbe-form-popup .form-control:-ms-input-placeholder { color: #1b7cff; font-weight: bold;}
 /* Modal Form */
+
+
+@media (max-width: 768px){
+	
+/* Make Awesome Boxes Mobile Friendly */
+
+.bbe-awesome-technology [class*="col-"] {
+    float: none;
+    display: inherit;
+    vertical-align: top;
+    padding: 0 70px;
+}
+}
