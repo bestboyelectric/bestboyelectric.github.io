@@ -54,9 +54,8 @@ Colours
 */
 
 body {
-  font-family: 'Montserrat-Regular', sans-serif;
+    font-family: "proxima-nova",sans-serif;
 }
-
 a:hover {
     color: #484e5d;
 }
@@ -92,6 +91,10 @@ a:hover {
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;  
+}
+
+.btn-info:hover {
+    background: #484e5d;
 }
 
 .btn-success {
@@ -185,7 +188,9 @@ h3 {
     padding: 15px 10px;
     color: #1b7bff;
 }
-
+.nav>li>a:hover {
+    color: #484e5d;
+}
 .icon-bar {
     background-color: #1b7cff;
 }
