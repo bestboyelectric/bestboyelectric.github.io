@@ -578,6 +578,10 @@ h3 {
     padding-top: 10px;
 }
 
+.bbe-footer h5 {
+    color: #DDDDDD;
+}
+
 /* Modal Form */
 
 .bbe-form-popup .modal-content {
