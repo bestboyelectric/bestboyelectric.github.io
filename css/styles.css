@@ -209,7 +209,7 @@ h3 {
     padding-top: 80px;
     padding-bottom: 0;
     margin-bottom: 0;
-    min-height: 600px;
+    min-height: 500px;
 }
     
 .jumbotron .h1, .jumbotron h1 {
@@ -226,7 +226,7 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-    background-position: 50% 50%;
+        background-position: 50% 31%;
     background-size: cover;
 }
 
