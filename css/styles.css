@@ -111,6 +111,7 @@ h1 {
     margin-top: 80px;
     font-family: 'AntennaCond-Bold', sans-serif;
     color: #1b7cff;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -192,7 +193,9 @@ h3 {
     color: #484e5d;
 }
 .icon-bar {
-    background-color: #1b7cff;
+    background-color: none;
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
 @media (min-width: 768px) {
@@ -266,24 +269,47 @@ h3 {
 }
 
 .bbe-thumbnail {
-        height: 180px;
-        width: 180px;  
+        height: 187px;
+    width: 292px;  
 }
 
+
 .img-technology {
-    background: url('../images/mantras.jpg') no-repeat -40px 0px;
+    background: url('../images/tech-icon.jpg') no-repeat top center #fafafa;
+}
+
+.img-technology:hover {
+    background: url('../images/tech-icon.jpg') no-repeat bottom center #1d7bff;
 }
 
 .img-methodology {
-    background: url('../images/mantras.jpg') no-repeat -313px 0px;
+    background: url('../images/method-icon.jpg') no-repeat top center #fafafa;
+	border-left: 1px solid #ddd;
+}
+
+.img-methodology:hover {
+    background: url('../images/method-icon.jpg') no-repeat bottom center #1d7bff;
+	border-left: 1px solid #ddd;
 }
 
 .img-infrastructure {
-    background: url('../images/mantras.jpg') no-repeat -584px 0px;
+    background: url('../images/infa-icon.jpg') no-repeat top center #fafafa;
+	border-left: 1px solid #ddd;
+}
+
+.img-infrastructure:hover {
+    background: url('../images/infa-icon.jpg') no-repeat bottom center #1d7bff;
+	border-left: 1px solid #ddd;
 }
 
 .img-culture {
-    background: url('../images/mantras.jpg') no-repeat -854px 0px;
+    background: url('../images/culture-icon.png') no-repeat top center #f7f7f7;
+	border-left: 1px solid #ddd;
+}
+
+.img-culture:hover {
+    background: url('../images/culture-icon.png') no-repeat bottom center #1d7bff;
+	border-left: 1px solid #ddd;
 }
 
 .bbe-high-velocity-content {
@@ -353,7 +379,6 @@ h3 {
 
 .bbe-team-cta .btn {
     background-color: #00d8b2;
-	padding-top: 77px;
 }
 
 .bbe-team .text-info {
@@ -637,5 +662,10 @@ h3 {
     display: inherit;
     vertical-align: top;
     padding: 0 70px;
+}
+.technology .bbe-thumbnail {
+    float: left;
+    margin: 0px auto;
+    width: 50%;
 }
 }
