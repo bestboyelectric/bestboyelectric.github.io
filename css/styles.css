@@ -51,6 +51,7 @@ Colours
 	#484e5d - silver
     #090a0a - black (text)
     #ddd    - light grey (text muted)
+    #F86465 - coral pink
 */
 
 body {
@@ -330,8 +331,8 @@ h3 {
 /* High velocity */
 
 .high-velocity .btn-lg {
-    border: 2px solid #f96566;
-    color: #f96566;
+    border: 2px solid #F86465;
+    color: #F86465;
 }
 
 
@@ -457,8 +458,8 @@ h3 {
 }
 
 .bbe-our-work .btn-info {
-    border: #f96566 2px solid;
-    color: #f96566;
+    border: #F86465 2px solid;
+    color: #F86465;
 }
 
 /* Our work */
