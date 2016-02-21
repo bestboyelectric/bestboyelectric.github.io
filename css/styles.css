@@ -357,6 +357,21 @@ h3 {
      padding-top: 62px;
 }
 
+.bbe-client-title .btn-lg {
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: 35px;
+    margin-bottom: 50px;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+    margin-top: 45px;
+}
+
 /*.bbe-client-logo .bbe-logos {
     overflow-x: auto;
     padding-top: 62px;
@@ -576,6 +591,12 @@ h3 {
     display: inherit;
     vertical-align: top;
     padding: 0 30px;
+}
+.bbe-client-title .btn-lg {
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: 0px;
+    margin-bottom: 50px;
 }
 }
 
