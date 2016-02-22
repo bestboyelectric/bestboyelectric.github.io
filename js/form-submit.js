@@ -22,4 +22,5 @@ var submitCTAForm = function(){
 		alert(e);
 	}	
 	$('#FormPopup').modal('hide');
+	return false;
 }
