@@ -437,7 +437,7 @@
                                 <p class="text-primary">We don’t like to complicate things. Awesome is best appreciated when it is simple. Engineering like you're from the future!.</p> 
                             </div>
                             <div class="col-sm-5 col-sm-offset-1">
-                                <form onsubmit="submitCTAForm()" method="POST"  id="cta-form">
+                                <form onsubmit="return submitCTAForm()" method="POST"  id="cta-form">
                                     <div class="form-group">
                                         <input type="text" name="name" class="form-control input-lg required" placeholder="Name*"/>
                                         <span class="text-info hidden">please enter your full name</span>
@@ -450,7 +450,7 @@
                                         <span class="text-info hidden">please enter a message</span>
                                         <div class="row">
                                             <div class="col-sm-4">
-                                                <input type="Submit" value="SEND" class="btn btn-lg btn-success"/>
+                                                <input type="Submit" value="SEND"  class="btn btn-lg btn-success"/>
                                             </div>
                                             <div class="col-sm-6 col-sm-offset-2 bbe-form-message hidden">
                                                 <span class="text-primary">MESSAGE SENT</span>
