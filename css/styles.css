@@ -534,14 +534,13 @@ p {
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
     color: #fff;
-    width: 100%;
+    min-width: 100%;
+    min-height: 300px;
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
-  //  padding-bottom: 40px;
     right: 0;
     padding: 0;
-    width: 100%;
 
 }
 
@@ -551,7 +550,7 @@ p {
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner h1 {
-    margin-top: 40px;       
+    margin-top: 100px;
 }
 
 .bbe-awesome-technology .col-sm-4:nth-child(odd) {
