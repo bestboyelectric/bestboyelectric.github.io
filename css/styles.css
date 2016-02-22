@@ -390,6 +390,7 @@ h3 {
 
 /* Our Team */
 .bbe-team {
+    min-height: 290px;
     margin-bottom: 180px;
 }
 
