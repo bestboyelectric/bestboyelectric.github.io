@@ -65,6 +65,7 @@ Colours
 
 body {
     font-family: "Montserrat-Regular",sans-serif;
+    font-weight: lighter;
 
 }
 
@@ -74,9 +75,10 @@ a:hover {
 
 /* Buttons */
 .btn {
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: 'Montserrat-Regular', sans-serif;
     border-radius: 0px;  
-    border: none; 
+    border: none;
+    font-weight: lighter;
 }
 
 .btn-lg {
@@ -138,7 +140,9 @@ h3 {
 }
 
 
-
+p {
+    font-size: 17px;
+}
 
 .text-primary {
     color: #090a0a;
@@ -195,7 +199,7 @@ h3 {
 }
 
 .navbar .fa {
-    color: #000;
+    color: #1b7bff;
 }
 
 .navbar-brand {
@@ -365,7 +369,7 @@ h3 {
 /* High velocity */
 
 .high-velocity .btn-lg {
-    border: 2px solid #F86465;
+    border: 3px solid #F86465;
     color: #F86465;
 }
 
