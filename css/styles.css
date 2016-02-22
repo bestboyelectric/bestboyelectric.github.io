@@ -478,10 +478,13 @@ h3 {
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
     color: #fff;
+
+
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
     padding-bottom: 40px;
+    width: 100%;
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner h1,
