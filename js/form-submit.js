@@ -21,5 +21,5 @@ var submitCTAForm = function(){
 	}catch(e){
 		alert(e);
 	}	
-	
+	$('#FormPopup').modal('hide');
 }
