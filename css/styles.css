@@ -171,10 +171,11 @@ h3 {
 /* Navigation */
 .navbar {
     background-color: #fff;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat-Regular', sans-serif;
     color: #1b7cff;
+    font-weight: lighter;
     border-radius: 0;
+    padding: 10px 50px 10px 50px;
 }
 
 .navbar .fa {
@@ -183,6 +184,7 @@ h3 {
 
 .navbar-brand {
     font-family: 'AntennaCond-Bold', sans-serif;
+    font-size: 30px;
     color: #1b7bff;
 }
 
@@ -201,6 +203,7 @@ h3 {
 
 @media (min-width: 768px) {
     #navbar {
+
         float: right;
     }
 }
