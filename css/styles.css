@@ -259,6 +259,7 @@ h3 {
 .high-velocity {
     min-height: 690px;
     background-color: #efefef;
+    padding-bottom: 80px;
 
 }
 
@@ -295,6 +296,11 @@ h3 {
 /* CTA Build more awesome */
 
 /* High velocity */
+
+.bbe-high-velocity {
+    min-height: 840px;
+    padding-bottom: 60px;
+}
 
 
 .bbe-thumbnail {
