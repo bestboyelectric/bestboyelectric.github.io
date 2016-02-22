@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02759813-7693-4d7e-a0a6-b7e9baabb3ab" name="Default" comment="Updated dates on Medium articles (and corrected typo of &quot;febuary&quot;">
+    <list default="true" id="02759813-7693-4d7e-a0a6-b7e9baabb3ab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18850988">
-              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.4344704">
+              <caret line="428" column="95" selection-start-line="428" selection-start-column="95" selection-end-line="428" selection-end-column="95" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -36,6 +36,7 @@
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#3;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,7 +246,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456170088398</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Links in footer">
+      <created>1456171525105</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1456171525105</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -286,7 +293,8 @@
     <MESSAGE value="Amended width of &quot;awesome&quot; banner" />
     <MESSAGE value="Amended width of &quot;awesome&quot; banner;&#10;Subsequent changes to carousel" />
     <MESSAGE value="Updated dates on Medium articles (and corrected typo of &quot;febuary&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated dates on Medium articles (and corrected typo of &quot;febuary&quot;" />
+    <MESSAGE value="Links in footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Links in footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -304,6 +312,7 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#3;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -346,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18850988">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.4344704">
+          <caret line="428" column="95" selection-start-line="428" selection-start-column="95" selection-end-line="428" selection-end-column="95" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -355,6 +364,7 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#5;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#1;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#3;n#div#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
