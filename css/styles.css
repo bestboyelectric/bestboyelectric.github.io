@@ -213,7 +213,7 @@ h3 {
     padding-top: 80px;
     padding-bottom: 0;
     margin-bottom: 0;
-    min-height: 590px;
+    min-height: 690px;
 }
     
 .jumbotron .h1, .jumbotron h1 {
@@ -230,7 +230,7 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-        background-position: 50% 31%;
+        background-position: 50% 45%;
     background-size: cover;
 }
 
@@ -342,7 +342,7 @@ h3 {
     background: url('../images/earth_image.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    min-height: 500px;
+    min-height: 690px;
     background-attachment: fixed;
 }
 
@@ -356,11 +356,11 @@ h3 {
 
 /* Our Team */
 .bbe-team {
-    margin-bottom: 80px;    
+    margin-bottom: 180px;
 }
 
 .bbe-team h3 {
-    margin-top: 35px;
+    margin-top: 85px;
     font-size: 20px;
 }
 
@@ -409,9 +409,10 @@ h3 {
 }
 
 .bbe-client-logo .bbe-client-title h3 {
-     font-size: 22px;
+     font-size: 20px;
+    line-height: 1.5;
      color: #fff;  
-     padding-top: 62px;
+     padding-top: 42px;
 }
 
 .bbe-client-title .btn-lg {
