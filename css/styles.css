@@ -444,7 +444,7 @@ h3 {
     width: 30%;
 }
 
-.bbe-client-logo .bbe-client-title h3 {
+.bbe-client-logo .bbe-client-title h4 {
      font-size: 20px;
     line-height: 1.5;
      color: #fff;  
@@ -462,7 +462,7 @@ h3 {
     position: relative;
     width: 100%;
     -ms-touch-action: pan-y;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 
 .owl-theme .owl-controls .owl-page span{background: #ffffff;}
