@@ -155,7 +155,7 @@ h3 {
 
 .text-info {
     color: #090a0a;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
 
 }
@@ -229,7 +229,7 @@ h3 {
 /* Jumbotron */
 
 .jumbotron {
-    padding-top: 80px;
+    padding-top: 130px;
     padding-bottom: 0;
     margin-bottom: 0;
     min-height: 690px;
@@ -249,7 +249,7 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-        background-position: 50% 45%;
+    background-position: 50% 45%;
     background-size: cover;
 }
 
@@ -257,20 +257,32 @@ h3 {
 
 /* CTA Build more awesome */
 .high-velocity {
+    min-height: 690px;
     background-color: #efefef;
+
 }
+
+.width-restrictor {
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 5%;
+    height: 80%;
+
+}
+
 
 .high-velocity .text-primary {
     color: #090a0a;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .cta {
     background-color: #1b7cff;
     min-height: 60px;
     color: #fff;
+
 }
 
 .cta .bbe-cta-title {
@@ -284,12 +296,9 @@ h3 {
 
 /* High velocity */
 
-.bbe-high-velocity {
-    margin-bottom: 80px;   
-}
 
 .bbe-thumbnail {
-        height: 187px;
+    height: 187px;
     width: 292px;  
 }
 
