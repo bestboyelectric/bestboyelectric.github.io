@@ -478,16 +478,21 @@ h3 {
 /* Our work */
 
 /* Awesome technology */
+
+
+.wrapper {
+    width: 100%;
+}
+
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
     color: #fff;
-    width: 100%;
-
-
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
     padding-bottom: 40px;
+    width: 100%;
+    min-width: 1000px;
 
 }
 
