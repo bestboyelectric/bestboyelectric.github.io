@@ -55,8 +55,10 @@ Colours
 */
 
 body {
-    font-family: "proxima-nova",sans-serif;
+    font-family: "Montserrat-Regular",sans-serif;
+
 }
+
 a:hover {
     color: #484e5d;
 }
@@ -130,12 +132,14 @@ h3 {
     color: #090a0a;
     font-size: 20px;
     line-height: 30px;
+    font-weight: lighter;
 }
 
 .text-primary-reverse {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
+    font-weight: lighter;
 }
 
 .text-info {
@@ -409,6 +413,7 @@ h3 {
 .bbe-client-logo .bbe-client-title {
     background-color: #1b7cff;
     height: 278px;
+    width: 30%;
 }
 
 .bbe-client-logo .bbe-client-title h3 {
@@ -437,6 +442,7 @@ h3 {
 .bbe-container {
     height: 278px;
 	background-color: #f96566;
+    width: 100%;
 }
 
 /*.bbe-client-logo .bbe-logos {
@@ -458,6 +464,12 @@ h3 {
   width: 70%;
   height: auto;
 }
+
+.carousel {
+    width: 70%;
+    float: right;
+}
+
 /*.bbe-logos .item {
     position: absolute;
 }*/
@@ -480,9 +492,7 @@ h3 {
 /* Awesome technology */
 
 
-.wrapper {
-    width: 100%;
-}
+
 
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
@@ -490,9 +500,10 @@ h3 {
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
-    padding-bottom: 40px;
+  //  padding-bottom: 40px;
+    right: 0;
+    padding: 0;
     width: 100%;
-    min-width: 1000px;
 
 }
 
