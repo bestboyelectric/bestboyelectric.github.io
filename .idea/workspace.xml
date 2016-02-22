@@ -45,8 +45,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2785146">
-              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.6366048">
+              <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -393,7 +393,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456173461396</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Initialised Proxima Nova Light font">
+      <created>1456174296780</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1456174296780</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -438,7 +444,8 @@
     <MESSAGE value="Formatting of address and ph number in footer &amp; contact sheet" />
     <MESSAGE value="BBE on one line (awesome para);&#10;colon added to Awesome subheading for clarity" />
     <MESSAGE value="All news boxes now same length;&#10;Spacer line added after each news article heading;&#10;&quot;...&quot; added to end of 3rd article content" />
-    <option name="LAST_COMMIT_MESSAGE" value="All news boxes now same length;&#10;Spacer line added after each news article heading;&#10;&quot;...&quot; added to end of 3rd article content" />
+    <MESSAGE value="Initialised Proxima Nova Light font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialised Proxima Nova Light font" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -507,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2785146">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.6366048">
+          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
           <folding />
         </state>
       </provider>
