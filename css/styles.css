@@ -48,12 +48,19 @@ Colours
     #1b7cff - blue
     #00d8b2 - green
     #efefef - grey (background)
+	#484e5d - silver
     #090a0a - black (text)
     #ddd    - light grey (text muted)
+    #F86465 - coral pink
 */
 
 body {
-  font-family: 'Montserrat-Regular', sans-serif;
+    font-family: "Montserrat-Regular",sans-serif;
+
+}
+
+a:hover {
+    color: #484e5d;
 }
 
 /* Buttons */
@@ -71,6 +78,10 @@ body {
 .btn-primary {
     background-color: #1b7cff;
     color: #fff;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 }
 
 .btn-info {
@@ -78,11 +89,23 @@ body {
     border: 2px solid #1b7cff;
     color: #1b7cff;
     margin-top: 40px;
-    margin-bottom: 40px;   
+    margin-bottom: 40px; 
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;  
+}
+
+.btn-info:hover {
+    background: #484e5d;
 }
 
 .btn-success {
     background-color: #00d8b2;
+	-webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
 } 
 /* Buttons */
 
@@ -91,6 +114,7 @@ h1 {
     margin-top: 80px;
     font-family: 'AntennaCond-Bold', sans-serif;
     color: #1b7cff;
+	margin-bottom: 20px;
 }
 
 h2 {
@@ -108,17 +132,19 @@ h3 {
     color: #090a0a;
     font-size: 20px;
     line-height: 30px;
+    font-weight: lighter;
 }
 
 .text-primary-reverse {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
+    font-weight: lighter;
 }
 
 .text-info {
     color: #090a0a;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
 }
 
@@ -149,10 +175,11 @@ h3 {
 /* Navigation */
 .navbar {
     background-color: #fff;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat-Regular', sans-serif;
     color: #1b7cff;
+    font-weight: lighter;
     border-radius: 0;
+    padding: 10px 50px 10px 50px;
 }
 
 .navbar .fa {
@@ -161,6 +188,7 @@ h3 {
 
 .navbar-brand {
     font-family: 'AntennaCond-Bold', sans-serif;
+    font-size: 30px;
     color: #1b7bff;
 }
 
@@ -168,13 +196,18 @@ h3 {
     padding: 15px 10px;
     color: #1b7bff;
 }
-
+.nav>li>a:hover {
+    color: #484e5d;
+}
 .icon-bar {
-    background-color: #1b7cff;
+    background-color: none;
+	margin-top:50px;
+	margin-bottom:50px;
 }
 
 @media (min-width: 768px) {
     #navbar {
+
         float: right;
     }
 }
@@ -187,7 +220,7 @@ h3 {
     padding-top: 80px;
     padding-bottom: 0;
     margin-bottom: 0;
-    min-height: 500px;
+    min-height: 690px;
 }
     
 .jumbotron .h1, .jumbotron h1 {
@@ -204,7 +237,7 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-    background-position: 50% 50%;
+        background-position: 50% 45%;
     background-size: cover;
 }
 
@@ -213,6 +246,13 @@ h3 {
 /* CTA Build more awesome */
 .high-velocity {
     background-color: #efefef;
+}
+
+.high-velocity .text-primary {
+    color: #090a0a;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
 }
 
 .cta {
@@ -237,24 +277,47 @@ h3 {
 }
 
 .bbe-thumbnail {
-        height: 180px;
-        width: 180px;  
+        height: 187px;
+    width: 292px;  
 }
 
+
 .img-technology {
-    background: url('../images/mantras.jpg') no-repeat -40px 0px;
+    background: url('../images/tech-icon.jpg') no-repeat top center #fafafa;
+}
+
+.img-technology:hover {
+    background: url('../images/tech-icon.jpg') no-repeat bottom center #1d7bff;
 }
 
 .img-methodology {
-    background: url('../images/mantras.jpg') no-repeat -313px 0px;
+    background: url('../images/method-icon.jpg') no-repeat top center #fafafa;
+	border-left: 1px solid #ddd;
+}
+
+.img-methodology:hover {
+    background: url('../images/method-icon.jpg') no-repeat bottom center #1d7bff;
+	border-left: 1px solid #ddd;
 }
 
 .img-infrastructure {
-    background: url('../images/mantras.jpg') no-repeat -584px 0px;
+    background: url('../images/infa-icon.jpg') no-repeat top center #fafafa;
+	border-left: 1px solid #ddd;
+}
+
+.img-infrastructure:hover {
+    background: url('../images/infa-icon.jpg') no-repeat bottom center #1d7bff;
+	border-left: 1px solid #ddd;
 }
 
 .img-culture {
-    background: url('../images/mantras.jpg') no-repeat -854px 0px;
+    background: url('../images/culture-icon.png') no-repeat top center #f7f7f7;
+	border-left: 1px solid #ddd;
+}
+
+.img-culture:hover {
+    background: url('../images/culture-icon.png') no-repeat bottom center #1d7bff;
+	border-left: 1px solid #ddd;
 }
 
 .bbe-high-velocity-content {
@@ -268,7 +331,16 @@ h3 {
     display: block;
 }
 
+.technology .bbe-thumbnail {
+    float: left;
+}
+
 /* High velocity */
+
+.high-velocity .btn-lg {
+    border: 2px solid #F86465;
+    color: #F86465;
+}
 
 
 /* Earth Quote */
@@ -277,7 +349,7 @@ h3 {
     background: url('../images/earth_image.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    min-height: 500px;
+    min-height: 690px;
     background-attachment: fixed;
 }
 
@@ -291,11 +363,11 @@ h3 {
 
 /* Our Team */
 .bbe-team {
-    margin-bottom: 80px;    
+    margin-bottom: 180px;
 }
 
 .bbe-team h3 {
-    margin-top: 0;
+    margin-top: 35px;
     font-size: 20px;
 }
 
@@ -304,6 +376,13 @@ h3 {
 }
 .bbe-team .bbe-team-cta {
     background-color: #00d8b2;
+	height: 263px;
+    width: 263px;
+}
+
+.bbe-team-cta img{
+	display: block;
+    margin: 0px auto;
 }
 
 .bbe-team-cta .btn {
@@ -314,25 +393,56 @@ h3 {
     margin-bottom: 35px;
 }
 
+.bbe-team h4 {
+    font-size: 16px;
+    color: #888888;
+}
+
 .bbe-team .fa {
     color: #1b7cff;
 }
 
 .bbe-team .btn-lg {
-    line-height: 11.233333;
+	width: 100%;
+	height: 263px;
+    padding-top: 45%;
 }
 /* Our Team */
 
 /* Client logos */
 .bbe-client-logo .bbe-client-title {
     background-color: #1b7cff;
-    min-height: 220px;  
+    height: 278px;
+    width: 30%;
 }
 
 .bbe-client-logo .bbe-client-title h3 {
-     font-size: 22px;
+     font-size: 20px;
+    line-height: 1.5;
      color: #fff;  
-     padding-top: 62px;
+     padding-top: 42px;
+}
+
+.bbe-client-title .btn-lg {
+    border: 2px solid #fff;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+    margin-top: 45px;
+}
+
+.owl-theme .owl-controls .owl-page span{background: #ffffff;}
+
+.bbe-container {
+    height: 278px;
+	background-color: #f96566;
+    width: 100%;
 }
 
 /*.bbe-client-logo .bbe-logos {
@@ -354,6 +464,12 @@ h3 {
   width: 70%;
   height: auto;
 }
+
+.carousel {
+    width: 70%;
+    float: right;
+}
+
 /*.bbe-logos .item {
     position: absolute;
 }*/
@@ -366,16 +482,29 @@ h3 {
     margin-bottom: 80px;
 }
 
+.bbe-our-work .btn-info {
+    border: #F86465 2px solid;
+    color: #F86465;
+}
+
 /* Our work */
 
 /* Awesome technology */
+
+
+
+
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
     color: #fff;
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
-    padding-bottom: 40px;
+  //  padding-bottom: 40px;
+    right: 0;
+    padding: 0;
+    width: 100%;
+
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner h1,
@@ -399,7 +528,7 @@ h3 {
     float: none;
     display: table-cell;
     vertical-align: top;
-    padding: 0 70px;
+    padding: 0 70px 50px;
 }
 
 
@@ -415,6 +544,10 @@ h3 {
     background-color: #efefef; 
 }
 
+.bbe-latest-news h1 {
+    margin-bottom: 50px;
+}
+
 .bbe-news-content h4 {
     font-size: 14px;
 }
@@ -424,7 +557,14 @@ h3 {
 }
 
 .bbe-news-content p.text-info {
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.bbe-post-meta{
+	width: 100%;
+    display: block;
+    float: left;
+	background-color: #efefef;
 }
 
 .bbe-latest-news .bbe-news-image-1 {
@@ -447,12 +587,15 @@ h3 {
 }
 
 .bbe-news-date {
-    line-height: 3.733333;
+    line-height: 5;
     padding-left: 20px;
 }
 
 .bbe-latest-news .text-muted {
     font-size: 11px;
+	color: #919191;
+	text-align:center;
+	    width: 50%;
 }
 
 /* Latest news */
@@ -471,6 +614,10 @@ h3 {
     background-color: #333;
     color: #fff;
     padding-top: 10px;
+}
+
+.bbe-footer h5 {
+    color: #DDDDDD;
 }
 
 /* Modal Form */
@@ -518,6 +665,36 @@ h3 {
 /* Modal Form */
 
 
+@media (max-width: 1024px){
+	.bbe-latest-news .text-muted {
+    font-size: 11px;
+    color: #919191;
+    text-align: center;
+    width: 100%;
+}
+.btn-lg {
+    line-height: 2.233333;
+    font-size: 18.46px;
+    width: 100%;
+}
+.bbe-news-date {
+    line-height: 5;
+    padding-left: 0px;
+}
+.bbe-awesome-technology [class*="col-"] {
+    float: none;
+    display: inherit;
+    vertical-align: top;
+    padding: 0 30px;
+}
+.bbe-client-title .btn-lg {
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: 0px;
+    margin-bottom: 50px;
+}
+}
+
 @media (max-width: 768px){
 	
 /* Make Awesome Boxes Mobile Friendly */
@@ -527,5 +704,10 @@ h3 {
     display: inherit;
     vertical-align: top;
     padding: 0 70px;
+}
+.technology .bbe-thumbnail {
+    float: left;
+    margin: 0px auto;
+    width: 50%;
 }
 }
