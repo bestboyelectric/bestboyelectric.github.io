@@ -440,21 +440,23 @@ h3 {
 /* Client logos */
 .bbe-client-logo .bbe-client-title {
     background-color: #1b7cff;
-    height: 278px;
+    min-height: 375px;
     width: 30%;
 }
 
 .bbe-client-logo .bbe-client-title h4 {
      font-size: 20px;
-    line-height: 1.5;
+     line-height: 1.5;
      color: #fff;  
-     padding-top: 42px;
+     padding-top: 100px;
+
 }
 
 .bbe-client-title .btn-lg {
     border: 2px solid #fff;
     color: #fff;
     margin-bottom: 50px;
+
 }
 
 .owl-carousel {
@@ -462,13 +464,15 @@ h3 {
     position: relative;
     width: 100%;
     -ms-touch-action: pan-y;
-    margin-top: 15px;
+    min-height: 375px;
 }
 
 .owl-theme .owl-controls .owl-page span{background: #ffffff;}
 
+
+
 .bbe-container {
-    height: 278px;
+    max-height: 375px;
 	background-color: #f96566;
     width: 100%;
 }
@@ -485,12 +489,13 @@ h3 {
 
 
 #owl-demo .item{
-  margin: 3px;
+    padding-top: 50px;
+
 }
 #owl-demo .item img{
-  display: block;
-  width: 70%;
-  height: auto;
+     display: block;
+     width: 70%;
+     height: auto;
 }
 
 .carousel {
