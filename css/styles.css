@@ -38,6 +38,15 @@ FONTS
        url('../fonts/AntennaCond-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+    font-family: 'Proxima-Nova-Light';
+    src: url('../fonts/proxima_nova_scosf_light-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/proxima_nova_scosf_light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/proxima_nova_scosf_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/proxima_nova_scosf_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/proxima_nova_scosf_light-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
 
 /*
 OVERIDES
@@ -128,24 +137,29 @@ h3 {
     color: #1b7cff;
 }
 
+p {
+    font-family: 'AntennaCond-Regular', sans-serif;
+}
+
+
 .text-primary {
     color: #090a0a;
     font-size: 20px;
     line-height: 30px;
-    font-weight: lighter;
+
 }
 
 .text-primary-reverse {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
-    font-weight: lighter;
 }
 
 .text-info {
     color: #090a0a;
     font-size: 16px;
     line-height: 28px;
+
 }
 
 .text-muted {
