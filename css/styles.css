@@ -38,6 +38,15 @@ FONTS
        url('../fonts/AntennaCond-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
+@font-face {
+    font-family: 'Proxima-Nova-Light';
+    src: url('../fonts/proxima_nova_scosf_light-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/proxima_nova_scosf_light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/proxima_nova_scosf_light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/proxima_nova_scosf_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/proxima_nova_scosf_light-webfont.svg') format('svg'); /* Legacy iOS */
+}
+
 
 /*
 OVERIDES
@@ -56,6 +65,7 @@ Colours
 
 body {
     font-family: "Montserrat-Regular",sans-serif;
+    font-weight: lighter;
 
 }
 
@@ -65,9 +75,10 @@ a:hover {
 
 /* Buttons */
 .btn {
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: 'Montserrat-Regular', sans-serif;
     border-radius: 0px;  
-    border: none; 
+    border: none;
+    font-weight: lighter;
 }
 
 .btn-lg {
@@ -128,24 +139,29 @@ h3 {
     color: #1b7cff;
 }
 
+
+p {
+    font-size: 17px;
+}
+
 .text-primary {
     color: #090a0a;
     font-size: 20px;
     line-height: 30px;
-    font-weight: lighter;
+
 }
 
 .text-primary-reverse {
     color: #fff;
     font-size: 20px;
     line-height: 30px;
-    font-weight: lighter;
 }
 
 .text-info {
     color: #090a0a;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
+
 }
 
 .text-muted {
@@ -184,7 +200,7 @@ h3 {
 
 
 .navbar .fa {
-    color: #000;
+    color: #1b7bff;
 }
 
 .navbar-brand {
@@ -218,7 +234,7 @@ h3 {
 /* Jumbotron */
 
 .jumbotron {
-    padding-top: 80px;
+    padding-top: 130px;
     padding-bottom: 0;
     margin-bottom: 0;
     min-height: 690px;
@@ -238,7 +254,7 @@ h3 {
 
 .bbe-awesome-image {
     background: url('../images/awsome_image.jpg') no-repeat;
-        background-position: 50% 45%;
+    background-position: 50% 45%;
     background-size: cover;
 }
 
@@ -246,20 +262,33 @@ h3 {
 
 /* CTA Build more awesome */
 .high-velocity {
+    min-height: 690px;
     background-color: #efefef;
+    padding-bottom: 80px;
+
 }
+
+.width-restrictor {
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 5%;
+    height: 80%;
+
+}
+
 
 .high-velocity .text-primary {
     color: #090a0a;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .cta {
     background-color: #1b7cff;
     min-height: 60px;
     color: #fff;
+
 }
 
 .cta .bbe-cta-title {
@@ -274,11 +303,13 @@ h3 {
 /* High velocity */
 
 .bbe-high-velocity {
-    margin-bottom: 80px;   
+    min-height: 840px;
+    padding-bottom: 60px;
 }
 
+
 .bbe-thumbnail {
-        height: 187px;
+    height: 187px;
     width: 292px;  
 }
 
@@ -339,7 +370,7 @@ h3 {
 /* High velocity */
 
 .high-velocity .btn-lg {
-    border: 2px solid #F86465;
+    border: 3px solid #F86465;
     color: #F86465;
 }
 
@@ -364,6 +395,7 @@ h3 {
 
 /* Our Team */
 .bbe-team {
+    min-height: 290px;
     margin-bottom: 180px;
 }
 
@@ -413,21 +445,23 @@ h3 {
 /* Client logos */
 .bbe-client-logo .bbe-client-title {
     background-color: #1b7cff;
-    height: 278px;
+    min-height: 375px;
     width: 30%;
 }
 
-.bbe-client-logo .bbe-client-title h3 {
+.bbe-client-logo .bbe-client-title h4 {
      font-size: 20px;
-    line-height: 1.5;
+     line-height: 1.5;
      color: #fff;  
-     padding-top: 42px;
+     padding-top: 100px;
+
 }
 
 .bbe-client-title .btn-lg {
     border: 2px solid #fff;
     color: #fff;
     margin-bottom: 50px;
+
 }
 
 .owl-carousel {
@@ -435,13 +469,15 @@ h3 {
     position: relative;
     width: 100%;
     -ms-touch-action: pan-y;
-    margin-top: 45px;
+    min-height: 375px;
 }
 
 .owl-theme .owl-controls .owl-page span{background: #ffffff;}
 
+
+
 .bbe-container {
-    height: 278px;
+    max-height: 375px;
 	background-color: #f96566;
     width: 100%;
 }
@@ -458,12 +494,13 @@ h3 {
 
 
 #owl-demo .item{
-  margin: 3px;
+    padding-top: 50px;
+
 }
 #owl-demo .item img{
-  display: block;
-  width: 70%;
-  height: auto;
+     display: block;
+     width: 70%;
+     height: auto;
 }
 
 .carousel {
@@ -498,14 +535,12 @@ h3 {
 .bbe-awesome-technology .bbe-awesome-technology-banner {
     background-color: #1b7cff;
     color: #fff;
-    width: 100%;
+    min-width: 100%;
+    min-height: 300px;
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
-  //  padding-bottom: 40px;
-    right: 0;
-    padding: 0;
-    width: 100%;
+
 
 }
 
@@ -515,7 +550,7 @@ h3 {
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner h1 {
-    margin-top: 40px;       
+    margin-top: 100px;
 }
 
 .bbe-awesome-technology .col-sm-4:nth-child(odd) {
@@ -524,13 +559,14 @@ h3 {
 
 .bbe-awesome-technology .row {
     display: table;
+    width: 100%;
 }
 
 .bbe-awesome-technology [class*="col-"] {
     float: none;
     display: table-cell;
     vertical-align: top;
-    padding: 0 70px 50px;
+    padding-right: 70px;
 }
 
 
