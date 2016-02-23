@@ -188,6 +188,15 @@ p {
 
 /* Modal Popup */
 
+#Popup-Thanks {
+    background-color: #fff;
+    color: #F86465; 
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
 /* Navigation */
 .navbar {
     background-color: #fff;
