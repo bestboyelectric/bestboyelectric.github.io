@@ -565,9 +565,15 @@ p {
     float: none;
     display: table-cell;
     vertical-align: top;
-    padding: 0 70px 50px;
+    padding-right: 70px;
 }
 
+.bbe-awesome-technology [class*="col-last"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 0;
+}
 
 /* Awesome technology */
 
