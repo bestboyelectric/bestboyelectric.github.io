@@ -539,8 +539,7 @@ p {
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
-    right: 0;
-    padding: 0;
+
 
 }
 
@@ -559,6 +558,7 @@ p {
 
 .bbe-awesome-technology .row {
     display: table;
+    width: 100%;
 }
 
 .bbe-awesome-technology [class*="col-"] {
@@ -568,12 +568,6 @@ p {
     padding-right: 70px;
 }
 
-.bbe-awesome-technology [class*="col-last"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-    padding-right: 0;
-}
 
 /* Awesome technology */
 
