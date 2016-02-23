@@ -20,7 +20,10 @@ var submitCTAForm = function(){
 		xhr.send(jsonString);
 	}catch(e){
 		alert(e);
-	}	
-	$('#FormPopup').modal('hide');
+	}
+	$('#Popup-Thanks').removeClass('hidden');	
+	window.setTimeout(function(){
+		$('#FormPopup').modal('hide');
+	},1000);
 	return false;
 }
