@@ -216,6 +216,8 @@ p {
     font-family: 'AntennaCond-Bold', sans-serif;
     font-size: 30px;
     color: #1b7bff;
+	padding: 15px 0px;
+
 }
 
 .nav>li>a {
@@ -225,11 +227,8 @@ p {
 .nav>li>a:hover {
     color: #484e5d;
 }
-.icon-bar {
-    background-color: none;
-	margin-top:50px;
-	margin-bottom:50px;
-}
+
+
 
 @media (min-width: 768px) {
     #navbar {
@@ -759,5 +758,52 @@ p {
     float: left;
     margin: 0px auto;
     width: 50%;
+}
+
+.navbar {
+    background-color: #fff;
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #1b7cff;
+    font-weight: lighter;
+    border-radius: 0;
+    padding: 10px 10px 10px 10px;
+}
+.bbe-client-logo .bbe-client-title {
+    width: 100%;
+}
+.carousel {
+    width: 100%;
+}
+.bbe-team .bbe-team-cta {
+    background-color: #00d8b2;
+    height: 263px;
+    width: 100%;
+}
+
+.bbe-team .btn-lg {
+    width: 100%;
+    height: 263px;
+    padding-top: 26%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.width-restrictor {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 5%;
+    height: 80%;
+}
+.navbar-toggle {
+    display: none;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 }
