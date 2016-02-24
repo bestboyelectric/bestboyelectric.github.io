@@ -79,6 +79,8 @@ a:hover {
     border-radius: 0px;  
     border: none;
     font-weight: lighter;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .btn-lg {
@@ -97,10 +99,10 @@ a:hover {
 
 .btn-info {
     background: transparent;
-    border: 2px solid #1b7cff;
+    border: 3px solid #1b7cff;
     color: #1b7cff;
     margin-top: 40px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 	-webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
@@ -140,6 +142,13 @@ h3 {
 }
 
 
+h5 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+
+}
+
 p {
     font-size: 17px;
 }
@@ -167,7 +176,7 @@ p {
 .text-muted {
     font-size: 16px;
     line-height: 26px;
-    color: #ddd;
+    color: #ccc;
 }
 
 /* Typography */
@@ -358,10 +367,12 @@ p {
 .img-culture:hover {
     background: url('../images/culture-icon.png') no-repeat bottom center #1d7bff;
 	border-left: 1px solid #ddd;
+
 }
 
 .bbe-high-velocity-content {
     display: none;
+
 }
 
 .bbe-high-velocity .technology .bbe-high-velocity-technology,
@@ -369,10 +380,14 @@ p {
 .bbe-high-velocity .infrastructure .bbe-high-velocity-infrastructure,
 .bbe-high-velocity .culture .bbe-high-velocity-culture {
     display: block;
+
+
 }
 
 .technology .bbe-thumbnail {
     float: left;
+    margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 /* High velocity */
@@ -487,7 +502,8 @@ p {
 .bbe-container {
     max-height: 375px;
 	background-color: #f96566;
-    width: 100%;
+    width: 100%; !important
+    padding-right: 0; !important
 }
 
 /*.bbe-client-logo .bbe-logos {
@@ -545,6 +561,7 @@ p {
     color: #fff;
     min-width: 100%;
     min-height: 300px;
+
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
@@ -559,6 +576,7 @@ p {
 
 .bbe-awesome-technology .bbe-awesome-technology-banner h1 {
     margin-top: 100px;
+
 }
 
 .bbe-awesome-technology .col-sm-4:nth-child(odd) {
@@ -567,7 +585,7 @@ p {
 
 .bbe-awesome-technology .row {
     display: table;
-    width: 100%;
+    padding-right: 0; !important
 }
 
 .bbe-awesome-technology [class*="col-"] {
