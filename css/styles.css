@@ -561,7 +561,7 @@ p {
     color: #fff;
     min-width: 100%;
     min-height: 300px;
-
+    margin-right: -30px !important;
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
@@ -823,5 +823,11 @@ p {
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
+}
+.bbe-earth-image {
+    background: url('../images/earth_image.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 }
