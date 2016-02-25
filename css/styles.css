@@ -830,4 +830,9 @@ p {
     background-size: cover;
     background-attachment: fixed;
 }
+.bbe-thumbnail {
+    height: 187px;
+    width: 50% !important;
+    float: left;
+}
 }
