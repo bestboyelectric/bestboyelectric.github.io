@@ -836,7 +836,7 @@ p {
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
     background-position: center center;
-    //background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: auto;
