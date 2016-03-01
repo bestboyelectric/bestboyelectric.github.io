@@ -24,6 +24,6 @@ var submitCTAForm = function(){
 	$('#Popup-Thanks').removeClass('hidden');	
 	window.setTimeout(function(){
 		$('#FormPopup').modal('hide');
-	},1000);
+	},3000);
 	return false;
 }
