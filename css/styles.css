@@ -836,11 +836,11 @@ p {
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
 
 }
 .bbe-thumbnail {
