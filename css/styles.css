@@ -838,8 +838,10 @@ p {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
 }
 .bbe-thumbnail {
     height: 187px;
