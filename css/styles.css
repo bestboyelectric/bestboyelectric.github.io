@@ -828,19 +828,19 @@ p {
 }
 
 .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 }
 .bbe-thumbnail {
