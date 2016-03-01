@@ -1,3 +1,8 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+
+
 /*
 FONTS
 */
@@ -565,7 +570,7 @@ p {
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
-
+ margin-bottom: 20px;
 
 }
 
@@ -762,6 +767,8 @@ p {
 }
 }
 
+/* MOBILE OPTIMISATION */
+
 @media (max-width: 768px){
 	
 /* Make Awesome Boxes Mobile Friendly */
@@ -815,9 +822,11 @@ p {
     padding-top: 5%;
     height: 80%;
 }
+
 .navbar-toggle {
     display: none;
 }
+
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
@@ -827,8 +836,10 @@ p {
 .bbe-earth-image {
     background: url('../images/earth_image.jpg') no-repeat;
     background-position: center center;
-    background-size: cover;
+    //background-size: cover;
     background-attachment: fixed;
+    width: 100%;
+    height: auto;
 }
 .bbe-thumbnail {
     height: 187px;
@@ -836,3 +847,6 @@ p {
     float: left;
 }
 }
+
+
+

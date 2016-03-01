@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.529411">
-              <caret line="415" column="54" selection-start-line="415" selection-start-column="54" selection-end-line="415" selection-end-column="54" />
+            <state vertical-scroll-proportion="-6.1764708">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8349381">
-              <caret line="388" column="20" selection-start-line="388" selection-start-column="20" selection-end-line="388" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.75240713">
+              <caret line="845" column="26" selection-start-line="845" selection-start-column="26" selection-end-line="845" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -75,8 +75,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="72" />
+    <option name="x" value="23" />
+    <option name="y" value="71" />
     <option name="width" value="2558" />
     <option name="height" value="1235" />
   </component>
@@ -518,11 +518,17 @@
       <option name="project" value="LOCAL" />
       <updated>1456221556734</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added more white space;&#10;Made CtA boxes wider;&#10;BBE in logo style in footer.">
+      <created>1456329373908</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1456329373908</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="72" width="2558" height="1235" extended-state="0" />
+    <frame x="23" y="71" width="2558" height="1235" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.49743214" order="-1" side_tool="false" content_ui="tabs" />
@@ -557,7 +563,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed Peet picture to B&amp;W" />
     <MESSAGE value="Small copy changes (commas and typo corrections);&#10;Spacing changes on Methodology / Infrastructure / Culture sections;&#10;" />
     <MESSAGE value="Spacing changes on Methodology / Infrastructure / Culture sections;&#10;(spaces added after subheadings)" />
     <MESSAGE value="Made main images bigger; corrected image position (opening image); changed font size on &quot;we love tech&quot; and added line spacing." />
@@ -582,7 +587,8 @@
     <MESSAGE value="Minor changes to section heights" />
     <MESSAGE value="Formatting of address in footer;&#10;Minor changes to copy on contact form." />
     <MESSAGE value="Minor changes to copy for readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes to copy for readability" />
+    <MESSAGE value="Added more white space;&#10;Made CtA boxes wider;&#10;BBE in logo style in footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more white space;&#10;Made CtA boxes wider;&#10;BBE in logo style in footer." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -636,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.529411">
-          <caret line="415" column="54" selection-start-line="415" selection-start-column="54" selection-end-line="415" selection-end-column="54" />
+        <state vertical-scroll-proportion="-6.1764708">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#span#0;n#p#1;n#div#0;n#div#0;n#div#1;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -653,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8349381">
-          <caret line="388" column="20" selection-start-line="388" selection-start-column="20" selection-end-line="388" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.75240713">
+          <caret line="845" column="26" selection-start-line="845" selection-start-column="26" selection-end-line="845" selection-end-column="26" />
           <folding />
         </state>
       </provider>
