@@ -395,11 +395,16 @@ p {
 
 }
 
-.technology .bbe-thumbnail {
+.technology {
     float: left;
+}
+
+.bbe-thumbnail {
+
     margin-bottom: 50px;
     margin-top: 25px;
 }
+
 
 /* High velocity */
 
