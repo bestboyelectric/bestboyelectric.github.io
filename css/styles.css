@@ -250,6 +250,16 @@ p {
 
 /* Navigation */
 
+/* Div */
+.container-fluid {
+    padding-right: 0; !important;
+    padding-left: 0; !important;
+    margin-right:0; !important;
+    margin-left: 0; !important;
+
+}
+/* Div */
+
 /* Jumbotron */
 
 .jumbotron {
@@ -563,11 +573,14 @@ p {
     color: #fff;
     min-width: 100%;
     min-height: 300px;
-    margin-right: -30px !important;
+
+
 }
 
 .bbe-awesome-technology .bbe-awesome-technology-banner div {
- margin-bottom: 20px;
+    margin-bottom: 20px;
+
+
 
 }
 
@@ -587,14 +600,17 @@ p {
 
 .bbe-awesome-technology .row {
     display: table;
-    padding-right: 0; !important
+    margin-left: 0px;
+
+
 }
 
 .bbe-awesome-technology [class*="col-"] {
     float: none;
     display: table-cell;
     vertical-align: top;
-    padding-right: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
