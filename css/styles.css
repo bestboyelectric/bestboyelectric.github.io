@@ -254,8 +254,7 @@ p {
 .container-fluid {
     padding-right: 0; !important;
     padding-left: 0; !important;
-    margin-right:0; !important;
-    margin-left: 0; !important;
+
 
 }
 /* Div */
@@ -601,6 +600,8 @@ p {
 .bbe-awesome-technology .row {
     display: table;
     margin-left: 0px;
+    padding-right: 10px;
+
 
 
 }
