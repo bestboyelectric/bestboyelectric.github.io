@@ -617,6 +617,7 @@ p {
     vertical-align: top;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 40px;
 }
 
 
@@ -747,6 +748,7 @@ p {
 
 .bbe-form-popup .bbe-form-message {
     padding-top: 20px;
+
 }
 
 .bbe-form-popup .form-control::-webkit-input-placeholder { color: #1b7cff; font-weight: bold; }
@@ -755,6 +757,8 @@ p {
 .bbe-form-popup .form-control:-ms-input-placeholder { color: #1b7cff; font-weight: bold;}
 /* Modal Form */
 
+
+/* MOBILE OPTIMISATION */
 
 @media (max-width: 1024px){
 	.bbe-latest-news .text-muted {
@@ -786,7 +790,7 @@ p {
 }
 }
 
-/* MOBILE OPTIMISATION */
+
 
 @media (max-width: 768px){
 	
