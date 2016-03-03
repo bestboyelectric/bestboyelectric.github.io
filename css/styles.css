@@ -680,14 +680,15 @@ p {
 
 .bbe-news-date {
     line-height: 5;
-    padding-left: 20px;
+
+
 }
 
 .bbe-latest-news .text-muted {
     font-size: 11px;
 	color: #919191;
 	text-align:center;
-	    width: 50%;
+    width: 50%;
 }
 
 /* Latest news */
