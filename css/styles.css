@@ -53,7 +53,7 @@ FONTS
 /*
 OVERIDES
 */
-    
+
 /*
 Colours
     #1b7cff - blue
@@ -78,7 +78,7 @@ a:hover {
 /* Buttons */
 .btn {
     font-family: 'Montserrat-Regular', sans-serif;
-    border-radius: 0px;  
+    border-radius: 0px;
     border: none;
     font-weight: lighter;
     padding-left: 30px;
@@ -99,6 +99,7 @@ a:hover {
   transition: background-color 2s ease-out;
 }
 
+
 .btn-info {
     background: transparent;
     border: 3px solid #1b7cff;
@@ -108,7 +109,7 @@ a:hover {
 	-webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
-  transition: background-color 2s ease-out;  
+  transition: background-color 2s ease-out;
 }
 
 .btn-info:hover {
@@ -121,7 +122,7 @@ a:hover {
   -moz-transition: background-color 2s ease-out;
   -o-transition: background-color 2s ease-out;
   transition: background-color 2s ease-out;
-} 
+}
 /* Buttons */
 
 /* Typography */
@@ -184,7 +185,7 @@ p {
 /* Typography */
 
 /* Modal Popup */
-	
+
 .modal {
   top: 40px;
 }
@@ -201,7 +202,7 @@ p {
 
 #Popup-Thanks {
     background-color: #fff;
-    color: #F86465; 
+    color: #F86465;
     font-family: 'Montserrat-Bold', sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -267,7 +268,7 @@ p {
     margin-bottom: 0;
     min-height: 690px;
 }
-    
+
 .jumbotron .h1, .jumbotron h1 {
     font-size: 46px;
     line-height: 50px;
@@ -338,7 +339,7 @@ p {
 
 .bbe-thumbnail {
     height: 187px;
-    width: 292px;  
+    width: 292px;
 }
 
 
@@ -446,10 +447,16 @@ p {
 .bbe-team .bbe-team-para2 {
     margin-top: 60px;
 }
-.bbe-team .bbe-team-cta {
-    background-color: #00d8b2;
+.bbe-team .bbe-team-cta .turquoise{
+  background-color: #00d8b2;
 	height: 263px;
-    width: 263px;
+  width: 263px;
+}
+
+.bbe-team .bbe-team-cta .blue{
+  background-color: #1b7cff;
+	height: 263px;
+  width: 263px;
 }
 
 .bbe-team-cta img{
@@ -457,8 +464,12 @@ p {
     margin: 0px auto;
 }
 
-.bbe-team-cta .btn {
+.bbe-team-cta .turquoise {
     background-color: #00d8b2;
+}
+
+.bbe-team-cta .blue {
+    background-color: #1b7cff;
 }
 
 .bbe-team .text-info {
@@ -491,7 +502,7 @@ p {
 .bbe-client-logo .bbe-client-title h4 {
      font-size: 20px;
      line-height: 1.5;
-     color: #fff;  
+     color: #fff;
      padding-top: 100px;
 
 }
@@ -731,12 +742,12 @@ p {
 }
 
 .bbe-form-popup .form-control {
-    border-radius: 0;   
+    border-radius: 0;
 }
 
 .bbe-form-popup .input-lg {
     height: 60px;
-    color: #1b7cff; 
+    color: #1b7cff;
     font-weight: bold;
     margin: 7px 0;
 }
@@ -794,7 +805,7 @@ p {
 
 
 @media (max-width: 768px){
-	
+
 /* Make Awesome Boxes Mobile Friendly */
 
 .bbe-awesome-technology [class*="col-"] {
@@ -873,6 +884,3 @@ p {
     float: left;
 }
 }
-
-
-
