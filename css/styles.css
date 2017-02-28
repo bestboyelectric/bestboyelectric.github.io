@@ -524,13 +524,15 @@ p {
 
 .owl-theme .owl-controls .owl-page span{background: #ffffff;}
 
-
+.container-fluid {
+  width: 100%;
+}
 
 .bbe-container {
-    max-height: 375px;
+  max-height: 375px;
 	background-color: #f96566;
-    width: 100%; !important
-    padding-right: 0; !important
+  width: 100%; !important
+  padding-right: 0; !important
 }
 
 /*.bbe-client-logo .bbe-logos {
